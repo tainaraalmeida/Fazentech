@@ -11,9 +11,10 @@ body {
 
   font-size: 100%;
   background-image: url(../image/producao.jpg);
-  background-size: 1500px;
+  background-size: 100vw;
   background-repeat: no-repeat;
   background-position: 100% 6%;
+ 
 }
 
 .container {
