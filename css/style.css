@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Changa:wght@500&family=Racing+Sans+One&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-boxs;
+}
+
+body {
+  height: 100vh;
+
+  font-size: 100%;
+  background-image: url(/image/producao.jpg);
+  background-size: 1500px;
+  background-repeat: no-repeat;
+  background-position: 100% 6%;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*Background titulo*/
+.cabecalho {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 8px;
+  background-image: url(/image/fundo.gif);
+}
+
+/*Titulo Fazentech*/
+.titulo-cabecalho {
+  font-family: 'Racing Sans One', cursive;
+  font-weight: 400;
+  font-size: 80px;
+  color: #34a5a5;
+  text-shadow: 2px 5px 4px #EBEBEB;
+}
+
+/*Subtitulo*/
+.subtitulo-cabecalho {
+  font-family: 'Racing Sans One', cursive;
+  font-weight: 400;
+  font-size: 30px;
+  color: #EBEBEB;
+}
+
+/*Campo onde esta todo o formulário*/
+.fieldset {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 420px;
+  height: 260px;
+  margin-top: 50px;
+  background-color: rgba(7, 6, 6, 0.100);
+  backdrop-filter: blur(5px);
+  border-radius: 8px;
+  padding: 0px 0px 20px 0px;
+}
+
+/*Titulo efetuar login*/
+h2 {
+  margin: 8px 0px 10px 0px;
+  font-family: 'Changa', sans-serif;
+  font-size: 35px;
+  font-weight: 400;
+  color: #34a5a5;
+  text-shadow: 1px 1px 1px rgb(0, 0, 0, 0.5);
+}
+
+/*Configuração dos inputs usuário e senha*/
+.input {
+  display: flex;
+  width: 300px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  background: none;
+  border-bottom: solid 0.1px rgb(1, 10, 9);
+  outline: none;
+  font-family: 'Changa', sans-serif;
+  margin: 0px 0px 20px 0px;
+
+}
+
+/*Titulos usuário e senha dos inputs*/
+.user {
+  color: #2d8888;
+  font-size: 18px;
+  font-weight: 400;
+
+}
+
+/*Botões entrar e esqueci a senha, utilizado o [attr='value' pois ambos botões tem a mesma configuração, somente a cor que é diferente]*/
+input.btn-login, [type='submit'] {
+  
+  padding: 8px;
+  height: 40px;
+  font-family: 'Changa', sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  color: #000000;
+  border-radius: 8px;
+  border: none;
+  
+}
+
+
+.botoes{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+/*Cor botão esqueceu a senha*/
+.btn-senha {
+  background-color: rgb(245, 110, 60);
+  
+}
+
+/*Cor botão entrar*/
+.btn-login {
+  background-color: #34a5a5;
+  width: 100px;
+  
+}
+/*hover botão entrar*/
+.btn-login:hover {
+  background-color: #05e2ffd2;
+  cursor: pointer;
+}
+/* hover botão esqueci a senha*/
+.btn-senha:hover {
+  background-color: orangered;
+  cursor: pointer;
+}
+
+a {
+  display: inline-flex;
+ position: absolute;
+  text-decoration: none;
+  
+
+  margin-left: -185px;
+
+  font-family: 'Changa', sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  text-align: center;
+
+  
+}
+
+a:visited{
+  color: black;
+  font-family: 'Changa', sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+}

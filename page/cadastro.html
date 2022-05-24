@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="/css/cadastro.css">
+    <link rel="shortcut icon" href="/image/favicon.ico" type="image/x-icon">
+    <title>FazendaTech</title>
+</head>
+
+<body>
+
+    <header class="cabecalho">
+        <h1 class="titulo-cabecalho">FAZENTECH</h1>
+        <h2 class="subtitulo-cabecalho">SISTEMA DE MONITORAÇÃO DE PRODUÇÃO LEITEIRA</h2>
+    </header>
+
+    <div id="sections">
+        <section class="section-ordenha">
+
+
+            <fieldset class="field">
+                <div class="img">
+                    <img src="/image/lista-de-controle.png">
+                    <h1>Cadastro Ordenha</h1>
+                </div>
+                <form class="form">
+                    <label>Digite o código da Vaca:
+                        <input type="text" class="cod-cow" placeholder="Código" maxlength="9">
+                    </label>
+
+                    <label>Quantidade de Leite Ordenhado:
+                        <select class="select">
+                            <option>1 litro</option>
+                            <option>2 litros</option>
+                            <option>3 litros</option>
+                            <option>4 litros</option>
+                            <option>5 litros</option>
+                            <option>6 litros</option>
+                            <option>7 litros</option>
+                            <option>8 litros</option>
+                        </select>
+                    </label>
+
+                    <label>Matrícula: <input class="mat" type="text" placeholder="Matrícula" maxlength="7"></label>
+
+                    <label>Quem Efetuou o Manejo?</label>
+                    <label><input class="manejo" type="radio" name="tecnico" checked> Técnico Garret</label>
+                    <label><input class="manejo" type="radio" name="tecnico"> Técnico Damon</label>
+                    <label><input class="manejo" type="radio" name="tecnico"> Técnico Dean</label>
+                    <label><input class="manejo" type="radio" name="tecnico"> Técnica Hannah</label>
+                    <label><input class="manejo" type="radio" name="tecnico"> Técnica Elena</label>
+
+
+
+                    <label>Data da Execução:
+                        <input class="data" type="datetime-local" name="data">
+                    </label>
+
+                    <button class="btn-send" type="submit">Enviar</button>
+                </form>
+        </section>
+        </fieldset>
+
+
+        <section class="section-doentes">
+
+
+            <fieldset class="field">
+                <div class="img">
+                    <img src="/image/relatorio-medico.png">
+                    <h1>Animais Doentes</h1>
+
+                </div>
+
+
+
+                <form class="form1">
+                    <label>Código da Vaca: <input class="cod-cow" type="text" placeholder="Código"></label>
+
+                    <label>Tratamento:</label>
+                    <textarea rows="5" cols="50"></textarea>
+                    <label>Médico Responsável:
+
+                    <select class="medicos">
+                        <optgroup label="Veterinário">
+                        <option value="Dr. Rafael">Dr. Rafael</option>
+                        <option value="Dr. Gabriela">Dr. Gabriela</option>
+                    </optgroup>
+                    <optgroup label="Cirurgião">
+                        <option value="Dr. Renato">Dr. Renato</option>
+                        <option value="Dr. Ana">Dr. Ana</option>
+                    </optgroup>
+                        
+
+                    </select>
+                </label>
+                    <label>Inicio do Tratamento: <input class="data" type="datetime-local"></label>
+
+                    <div class="botoes">
+                        <button class="btn-register" type="submit">Cadastrar</button>
+                        <button class="btn-reset" type="reset">Limpar</button>
+                    </div>
+                </form>
+        </section>
+        </fieldset>
+    </div>
+
+
+
+
+
+</body>
+
+</html>
