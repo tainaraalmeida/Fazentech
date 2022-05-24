@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,900&display=swap');
+
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  
+}
+
+body{
+  height: 100vh;
+  background-image: linear-gradient(to right bottom, #50a4c9, #458aa5, #3c7083, #335763, #2a3f45, #263539, #222b2d, #1d2122, #1d2122, #1d2122, #1d2122, #1d2122);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+h1{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ margin-top: 60px;
+ color: rgb(194, 194, 194);
+ font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  font-size: 40px;
+}
+
+
+fieldset{
+  position: absolute;
+  width: 470px;
+  height: 300px;
+  background: #263238;
+ margin: 50px 0 0 440px;
+ border: none;
+
+}
+
+input{
+ position: relative;
+width: 300px;
+height: 40px;
+left: 80px;
+top: 40px;
+padding: 10px;
+
+}
+
+#password{
+margin-top: 30px;
+}
+
+input::placeholder{
+ font-size: 15px;
+ color: #000000;
+
+
+
+}
+  
+
+
+input[type=button]{
+  position: absolute;
+  margin-top:170px;
+  height: 50px;
+  width: 110px;
+  background: rgba(0, 134, 210, 1);
+  border: none;
+}
+
+input[type=button]:hover{
+ cursor: pointer;
+ 
+}
+
+p{
+  position: absolute;
+  margin: 75px 0 0 245px;
+  color: rgb(194, 194, 194);
+}
+
+a{
+  color: aliceblue;
+}
+
+#imagem-segurança{
+
+  display: flex;
+  width: 500px;
+  height: 400px;
+  margin-top: -385px;
+  margin-left: -60px;
+}
+
+.imagens{
+  display: inline-flex;
+ margin-left: 790px;
+
+}
+ #primeiro-predio{
+   margin-top: 313px;
+   height: 200px;
+ }
+
+ #segundo-predio{
+   margin-top: 209px;
+   height: 300px;
+ }
+
+

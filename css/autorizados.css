@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,900&display=swap');
+
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  
+}
+
+@font-face {
+  font-family: redemption;
+  src: url(../fonts/Nuvel.ttf);
+}
+
+body{
+  height: 100vh;
+  background-image: linear-gradient(to right bottom, #50a4c9, #458aa5, #3c7083, #335763, #2a3f45, #263539, #222b2d, #1d2122, #1d2122, #1d2122, #1d2122, #1d2122);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.voltar-pagina>a{
+  color: white;
+  
+  text-decoration: none;
+  
+}
+
+.voltar-pagina{
+  margin: 30px 0 0 30px;
+  font-size: 20px;
+}
+
+.titulo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(194, 194, 194);
+  margin: 30px 0 30px 0;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  font-size: 40px;
+}
+
+.table{
+  display: flex;
+ justify-content: center;
+ align-items: center;
+}
+table{
+
+  border-collapse: collapse;
+  
+}
+th{
+  color: white;
+  padding: 8px;
+  background: rgb(10, 101, 10);
+  border: solid 2px rgb(0, 74, 0);
+ 
+}
+td{
+  border: solid 2px rgb(80, 83, 80);
+  background: white;
+  padding: 5px;
+  height: 30px;
+  text-align: center;
+}
+.btn{
+  width: 120px;
+  height: 50px;
+  border-radius: 10px;
+  border: none;
+  color: aliceblue;
+  margin: -12px 0px 60px 60px;
+  cursor: pointer;
+}
+
+.btn-camera{
+  background: rgba(0, 134, 210, 1);
+
+}
+
+.btn-lista{
+  background: rgba(0, 46, 116, 1);
+  margin-left: 49px;
+
+}
+
+.btn:hover{
+ 
+  background: rgba(56, 99, 255, 0.8);
+ 
+}
+
+.dados-ok , .dados-nao-ok{
+  display: flex;
+  flex-direction: row;
+}
+
+
+.dados{
+  display: flex;
+  position: absolute;
+ margin: 40px 0px 0px 385px ;
+  flex-direction: column;
+  color: floralwhite;
+
+}
+
+strong{
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+}
+
+.img-homem-autorizado{
+  display: flex;
+  position: absolute;
+  margin: -130px 0px 0px 932px;
+ width: 240px;
+ height: 240px;
+
+}

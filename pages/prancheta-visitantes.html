@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../css/visitantes.css">
+  <title>Prancheta Visitantes</title>
+</head>
+
+<body>
+  <h5 class="voltar-pagina" ><a class="voltar-pagina" href="./opcoes.html"> &#8701; Voltar para tela inicial</a></h5>
+
+  <h1 class="titulo">PRANCHETA CADASTRO VISITANTES</h1>
+
+  <fieldset>
+    <form>
+
+    <div class="visitante-rg">
+      <div class="visitante">
+        <label for="visitante">Nome do Visitante</label><br>
+        <input type="text" placeholder="Nome do Visitante" name="visitante" required>
+      </div>
+
+      <div class="rg">
+        <label for="rg">RG</label><br>
+        <input  type="number" placeholder="RG" name="rg" minlength="10" required>
+      </div>
+    </div>
+
+    <div class="dados-morador">
+      <div>
+        <label for="morador" class="nome-morador">Nome do Morador</label><br>
+        <input type="text" placeholder="Nome do Morador" name="morador" required>
+      </div>
+
+      <div>
+        <label for="apartamento" class="apartamento">Nº Apartamento</label><br>
+        <input type="number" placeholder="Nº" name="apartamento" required>
+      </div>
+
+      <div>
+        <label for="hora-entrada">Horário de Entrada</label><br>
+        <input type="datetime-local" name="hora-entrada" required>
+      </div>
+    </div>
+<div class="acompanhante">
+      <h3>Acompanhante?</h3>
+
+      <label for="acompanhante"><input type="radio" value="sim" name="acompanhante" checked> Sim</label>
+      <label for="acompanhante"><input type="radio" value="não" name="acompanhante"> Não</label><br>
+    </div>
+
+      <button id="btn-modal" class="btn" value="cadastrar-visitante" onclick="modal()"> Cadastrar Visitante</button>
+
+    </form>
+  </fieldset>
+<div>
+  <img src="../img/homem-visitante.svg">
+</div>
+
+<script src="../js/modal.js"></script>
+</body>
+
+</html>
